@@ -116,7 +116,7 @@ label chap8:
   "- twist vs lily"
   show blorange at far_left with move
   show ekene at mid_left
-  show barley at center_left
+  show barley
   "- blorange vs ekene and barley"
   show karn at far_right
   "- karn is hiding on the edge of the arena"

@@ -86,6 +86,7 @@ label chap2:
   "Blorange gently lays a hand on his ribs and casts third? Level Cure wounds."
   "Your magic trickles down under his skin, knitting together cracked bone in seconds when it should have taken weeks."
   "He takes in a short breath, clearly unused to the feeling."
+  show lysander happy
   "When it's done, he experimentally sits back up, a small smile creeping onto his lips."
   l "Wow. Can't say I haven't missed that. Thank you... Blorange?"
   "He holds out a hand."
@@ -122,6 +123,7 @@ label chap2:
   b "'You' not 'us'?"
   show blorange
   b "You exempt from an early grave? Seems to me you're the one closest to it, with having injuries despite arena fights not currently going on"
+  show lysander
   "He sneers."
   l "I'm not {i}exempt.{/i} But I'm not gonna lay down and get myself killed just so some asshole in the stands can make some extra gold. If the guards want to actually kill me next time I try to leave, they're welcome to try."
   show blorange smug
@@ -277,7 +279,8 @@ label chap2:
   b "The Princess??? spill spill spill"
   l "...do you swear not to tell..."
   "He pauses for a moment, then scoffs."
-  l "Actually, who the hell cares? It's not like anyone gets out of here. Quirin is betrothed to a man she doesn't love. I wasn't able to get her out of it last time, but I made her a promise and I intend to keep it."
+  l "Actually, who the hell cares? It's not like anyone gets out of here."
+  l "Quirin is betrothed to a man she doesn't love. I wasn't able to get her out of it last time, but I made her a promise and I intend to keep it."
   l "As soon as I get out of here, Quirin and I are running away."
   b @ shock "ok im SUPER in now. I was in before but now im all in."
 
@@ -343,8 +346,10 @@ label chap2:
   b @ shock "Sparks?"
   l "Fire genasi. You {i}will not{/i} miss them if they're in the room."
   "He leans back."
+  show lysander happy
   l "I don't know much about them, but they're always happy to spar with anyone. If you can take the heat."
   "(He looks very proud about his very funny joke.)"
+  show lysander
   l "...seriously, though, I've seen some of their sparring partners in the infirmary. If you're not resistant to fire, I wouldn't chance it."
   "(blorange loves puns ok. she laughed)"
   "(Lysander will remember this)"
@@ -353,8 +358,10 @@ label chap2:
   t "how good is this champion, exactly? What's the Thing that's keepin' her up top?"
   "A dark look flits across lysanders face."
   l "I don’t know. She's just..."
+  show lysander happy
   "He laughs uncomfortably."
   l "She's just {i}really{/i} scary! Half the time, people can hardly get a hit on her. They just... freeze up. And then they die."
+  show lysander
   show twist
   "Hrm. Twist is Thinking."
   m "(A dangerous pastime)"
@@ -408,6 +415,7 @@ label chap2:
   hide sarah
   hide ooc  
 
+  show lysander happy
   "Lysander whistles."
   l "Pretty ballsy. How'd the other guy look?" 
   show twist
@@ -579,8 +587,9 @@ label chap2:
   "Twist's ears turn bright pink and he reflexively stuffs more clementine in his mouth."
   show twist
   t "That spoon smarts, mate"
-  l "That's why you just don't get hit, {i}mate.{/i}"
-  "He gives you a cocky smile."  
+  show lysander happy
+  "He gives you a cocky smile." 
+  l "That's why you just don't get hit, {i}mate.{/i}" 
   b "Blorange picks up another clementine and bites into it without peeling it"
 #r  "Blorange Intimidation (1d20+4) 11"
   
@@ -618,6 +627,7 @@ label chap2:
   b "So, Shelly, I heard about Lysander heres daring but seemingly quite foolish escape attempts. Has anyone ever actually succeeded?"
 #r  "Blorange Persuasion (1d20+8) 25"
   "(she can insight-check but blorange is Just Gossiping she genuinely has no interest in getting out herself. Especially not when she hasn't even gotten to see the ringfighting yet!!"
+  show lysander
   "Lysander gives you a very dismissive scoff. Shelly glares at him and he looks back down at his suddenly super interesting scone."
   sh "If anyone's done it, the arena has made damn sure to keep it under wraps."
   sh "There's a couple over the years that've gone missing, but the guards always come back with some corpse or another within a couple days."

@@ -1018,7 +1018,9 @@ label chap9:
   "The hand now comes down to tuck a curl of Lysander's hair back behind his ear for him."
   "Lysander turns to look at Twist."
   l "Yeah, it's—"
-  "A pause, like he's thinking. {w}Then he smiles."
+  "A pause, like he's thinking."
+  show lysander happy
+  "Then he smiles."
   "When he speaks, his voice is warm and encouraging."
   l "It's fine, Twist. I don't mind at all."
   show blorange smug
@@ -1079,17 +1081,17 @@ label chap9:
   
   show ooc  
   show dix happy at rightish
-  d "You see. If she manages to charm him. That is interesting bc teren is weak."
-  d "If she fails to charm him that is interesting bc teren is strong."
+  d "You see. If she manages to charm him. That is interesting bc it means teren is weak and crushable."
+  d "If she fails to charm him that is interesting bc it means teren is strong."
   d "When u say interesting it is Never lying and it can Always be said like you are looking down on them"
   show dix smug
   d "That's a rock fact"
-  hide dix
+  show dix
 
   r "Lysander Wisdom 4" 
   show meg happy at leftish
   m "Lysander....... king ily"
-  show dix happy at rightish
+  show dix happy
   d "GO LYSANDER STRONG OF BODY WEAK OF WILL!!!!!!!!!!! YES KING"
   m "King of having absolutely no mental defenses <3<3<3"
   hide dix
@@ -1162,7 +1164,9 @@ label chap9:
 
   "You can't seem to get up to that level of power (you get knocked down to a third level slot), so your will still slams up against the sticky spiderwebby feeling from before."
   "But! Just as you feel your grip slipping like it did last time, the webs begin to fall away."
-  "You now have successfully cast Fast Friends (at third level) on Lysander.  As the control fades, he gasps in the air that he hadn't been breathing for the past however-long-it-was."
+  "You now have successfully cast Fast Friends (at third level) on Lysander."
+  show lysander
+  "As the control fades, he gasps in the air that he hadn't been breathing for the past however-long-it-was."
   "He tries to respond to Blorange, but his body seems like it really wants to just get some air and nothing else right now."
   b "{i}hrm{/i}"
   show blorange

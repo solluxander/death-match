@@ -133,9 +133,11 @@ label chap10:
   show meg
   m "Oh so true"
   d "And that's ok. I only need to maintain spell concentration for One Hour. Teren will not find out in that time span probably"
+  show meg sad
   m "s....spell concentration..??"
   d @ happy "For the stealth advantage for the delightful boy that is twist"
   d "And lysander also I guess"
+  show meg
   m "OH"
   m "Oh my god okay yeah"
   m "I thought you were tossing something at ekene"
@@ -143,9 +145,10 @@ label chap10:
   d "WJFBEKFJKD sit here at my table, boy.... one hour......"
   m "One Hour.."
   d "Also. Blorange is a Society Lady. She knows how to spread gossip correctly."
-  d @ happy "Here is the trick"
-  d @ happy "Say whatever the fuck you want and then make sure to be attached at the hip to your medusa ex-wife until it all blows over"
-  m "EHFJNFNF"
+  show dix happy
+  d "Here is the trick"
+  d "Say whatever the fuck you want and then make sure to be attached at the hip to your medusa ex-wife until it all blows over"
+  m @ happy "EHFJNFNF"
   hide dix
   hide meg
   hide sarah
@@ -157,7 +160,7 @@ label chap10:
   e "But he didn't strike me as the kind of guy that would open up like that!" 
 
   show ooc  
-  show dix at rightish
+  show dix smug at rightish
   d "Blorange, without a hint of hesitation: teren is my Best Friend"
   show meg happy at leftish
   m "Honestly at this point I am just gonna sit back and enjoy the show"
@@ -175,7 +178,9 @@ label chap10:
   d "but anyone you talk to is like 'blorange? She's so kind and understanding...... so supportive.... she healed me once.....'"
   m @ worry2 "I never thought I would feel like I had to... apologize.. to a boss I made......"
   m "That sounds like hell!"
+  show dix
   d "It does................ I will be keeping that as a secret au in my head bc. I don't want to. I would waste so so many spell slots just existing with him."
+  show meg
   m "But it's fun to think about at least :pensive:"
   d "In this au lysander and twist do not escape and they come back the next day to blorange seemingly wholeheartedly being obsessed w being terens friend. After All That"
   m "Absolute insanity! Ideal"
@@ -205,12 +210,15 @@ label chap10:
   d "That's ok.......... he doesn't need to gossip......... he just needs to hit teren with his big beautiful pity eyes"
   m "THAT, he can do!"
   d "(gif of nick from new girl saying ‘stop being so mean to me or I swear to god im gonna fall in love with you!’)"
+  show dix
   d "This is me about teren im realizing"
+  show meg sad
   m "Unfortunately as I was playing him I was also getting a little heart eyes"
   d "WKFHKDHFS"
   d @ thot "Wait I just realized why"
   show dix worry
   d "Logging out immediately goodbye forever"
+  show meg happy
   m "To quote a wise man: Im like a bull. Red flags mean 'over here!'"
   d @ smug "WKFBSKCNKSJFKFJS"
   d "That but also............ draco malfoy kinnie vibes"
@@ -284,11 +292,15 @@ label chap10:
   show sarah shock
   s "twist was sold to fantasy one direction...."
   d "WNFBAKNALZSMDJLABFLSHFA"
-  m "Very same vibes of like........ you hear a girl in the hallway squee about zayn's voice. In your brain you know he is a one direction boy. You do not know which one. You discard the information immediately."
+  show meg
+  m "Very same vibes of like........ you hear a girl in the hallway squee about zayn's voice."
+  m "In your brain you know he is a one direction boy. You do not know which one. You discard the information immediately."
+  show meg happy
   m "WHFJNSNGKSNGMZNGNMG"
   show dix sulk
   d "The way he didn't remember my name........ so I am Not the harry........... ok......... I figured........it's whatever it's fine......."
   m "If it makes you feel better, you could also explain it away by saying this man very CLEARLY does not give a single shit about dresses"
+  show meg 
   m "You're lucky he knows anything at all"
   show dix happy
   d "SO TRUE"
@@ -298,9 +310,10 @@ label chap10:
   m "I think pennyfal is the nyle"
   m "We're coming to the edges of my knowledge of 1D but I'm very confident in this one"
   d "WJFHSJHDS"
-  m "NIALL"
+  m @ sad "NIALL"
   m "Oh god my other dnd campaign is rotting away my knowledge of one direction"
-  d "ANQBDKSHDKFKS There's too many of us to match exactly 1-1 so it's ok they don't have to line up. Just that ode is the harry. Go queen ily"
+  d "ANQBDKSHDKFKS There's too many of us to match exactly 1-1 so it's ok they don't have to line up."
+  d "Just that ode is the harry. Go queen ily"
   m "Go queen go!!"
   hide dix
   hide meg
@@ -369,7 +382,7 @@ label chap10:
   e "Or maybe I could even {i}learn{/i} it..."
   
   show ooc  
-  show meg happy at leftish
+  show meg smug at leftish
   m "(Tossing another impressionable young lad into bloranges path) go girl go! Convert this one too!"
   show dix smug at rightish
   d "WKDHSKFJJS"
@@ -468,6 +481,7 @@ label chap10:
   "He starts heading down the stairs."
 
   r "Twist Stealth w Advantage 28"
+  hide twist
   "You are SO hidden. There are two guards outside the locked door of the scouted bunks, but there's a good number of corners in that room, as well as the short corridor leading to the waiting room beneath the coliseum."
   "he's gonna make himself snug in a lil corner. pull his knees up to his chest."
 
@@ -503,7 +517,7 @@ label chap10:
   show ooc
   show dix shock at rightish  
   d "HUH??????"
-  d "I like this lady. Im gonna befriend this lady"
+  d @ happy "I like this lady. Im gonna befriend this lady"
   show dix thot
   d "Unless whatever happens in the next few seconds sucks"
   show meg at leftish
@@ -517,34 +531,33 @@ label chap10:
   d "ANWHDJSHCJSHFJS"
   show sarah
   s "you know what i kin her"
-  hide dix  
-  hide meg
-  hide sarah
-  hide ooc
 
-  s "well that's very reassuring, thank u megan"
   r "Twist Perception 10"
-  s "{s}{i}fuck{/i}{/s}"
-  
-  show ooc  
-  s @ sad "new day, dice bot hates me again :pensive:"
+  s @ sad2 "{s}{i}fuck{/i}{/s}"
+  show sarah sad 
+  s "new day, dice bot hates me again :pensive:"
   m "Dice maiden NOOOOO"
+  hide dix
   hide meg
   hide sarah
   hide ooc
 
+  show twist at centerish
   "Darling Twist, everything is exactly as it should be. You are filled with an immense sense of confidence, even."
   "Now that the encounter is over, Lysander hesitantly waves Twist over, though he's still looking pretty confused about the whole thing as he moves into the next room."
 
   t "he follows, casting glances over his shoulder every so often"
   
   show ooc  
-  s @ sad "resists the urge to have twist grab lysander's sleevie,,,,,"  
+  show sarah sad at rightish
+  s "resists the urge to have twist grab lysander's sleevie,,,,,"
+  show meg smug at leftish  
   m ":eyes: do it coward"
-  s @ thot "NOT YET"
+  s @ thot2 "NOT YET"
   s @ thot "we gotta commit to the slowburn friendship"
   m "SO true I respect that"
-  s @ sad "i've already failed the other slowburn relationship in my other campaign because both parties are teenagers and can't control themselves"
+  show sarah sad
+  s "i've already failed the other slowburn relationship in my other campaign because both parties are teenagers and can't control themselves"
   m "Gotta have self control in at least one campaign.... I understand"
   hide meg
   hide sarah
@@ -623,6 +636,7 @@ label chap10:
   show dix thot
   d "Also I. Gavenny....... Literally every breath she takes every move she makes every bond she breaks every step she takes I love her more and more.........."
   d "if blorange dies I will not be her Only because megan u make her so so endearing...... she belongs in ur hands........"
+  show meg happy
   m ":pleading::pleading::pleading: awww thank you!! I also love her so dearly"
   m "Thank you for handing her to me"
   hide dix
@@ -658,8 +672,9 @@ label chap10:
   d "Blorange: Prison isn't all bad <3<3<3 it's kinda fun being your roommate! We're chatting like a sleepover!! {p}Gavenny: wh- we were roommatessss before thisss. We have been doing ssssleepoversss the whole time. Blorange...prissson ssssucksss"
   show sarah happy
   s "ALSKFAJKDFJ"
-  show meg at leftish
+  show meg happy at leftish
   m "WHDJSNFN"
+  show sarah
   s "blorange is valid and i love her"
   m "Oh thank goodness I was trying to project sleepover vibes so hard"
   s "i love how they know lysander is gonna have his ass handed to him in like, half an hour"
@@ -677,7 +692,7 @@ label chap10:
   scene bg arena
   show twist at centerish
   show lysander at mid_left
-  "The two find themselves in the waiting area below the arena."
+  "Lysander and Twist find themselves in the waiting area below the arena."
   "Twist, the last time you were here, it was right before you were called to fight."
   "It looks a lot different now: it's dark, slits of moonlight coming in through the bars that look into the arena. And it's quiet."
   "Nothing here moves except for the two of you."
@@ -697,9 +712,9 @@ label chap10:
   "You're kind of on the clock here, so I'll be keeping track of how many rolls it takes you to do this first step :)"
   
   show ooc
-  show dix at rightish 
+  show dix shades at rightish 
   d "Strength.....................:goob:"
-  show meg at leftish
+  show meg happy at leftish
   m "Strength ^_^"
   show sarah trauma
   s "HERE GOES NOTHING"
@@ -709,6 +724,7 @@ label chap10:
   show sarah happy
   "HAHAHAHA SUCK IT DICE BOT"
   m "YOU DONE IT TWIST"
+  hide dix
   hide meg
   hide sarah
   hide ooc
@@ -731,6 +747,7 @@ label chap10:
   
   r "Twist Strength 7, 14, 19, 8"
   "Tired out from the stake, Twist takes a little longer to get the pulley system working. But as soon as it's open juuuust wide enough, Lysander slips through the gap."
+  show lysander happy
   l "Hey!" 
   "He grins. "
   l "That was a pretty good job." 
@@ -754,6 +771,7 @@ label chap10:
   "It's pretty high up, so it takes a while before he disappears over the top of the wall into the stands."
   hide lysander
   "It's silent for a moment... until you hear a distinctive poofing sound, and the guard from before appears in the arena."
+  show twist worry
   "You thought she was asleep, but apparently, she woke up!"
   "She looks up at the wall, scowling. It doesn't seem like she's noticed you."
   "If you stay still, you think she won't notice you at all."
@@ -794,9 +812,7 @@ label chap10:
   hide sarah
   hide ooc  
   
-  m "Does friends have a save that I'm not seeing, or does it just auto hit??"
-  "Okay you funky little man."
-  "I'm gonna say verbal components matter here, so what do you say as Teren to \n1. Cast the spell and \n2. Get her attention?"
+  "verbal components matter here, so what do you say as Teren to \n1. Cast the spell and \n2. Get her attention?"
   "In an Exact Copy of Teren's stupid voice, Twist raises a hand and calls out"
   t "Ho there! A pleasant evening, is it not?"
   "The woman jumps, the magic gathering around her dissipating in a second."
@@ -816,7 +832,7 @@ label chap10:
   show ooc
   show dix sulk at rightish  
   d "I THOUGHT MASTER WAS JUST LIKE. OLD TIMEY CALLING HIM SIR. DOES HE HAVE POWER HERE?????"
-  show meg at leftish
+  show meg smug at leftish
   m "Doeeeeeees heeee?"
   d @ sad "Oh is he not a prisoner and fighting on purpose"
   d "DOES HE????????"
@@ -849,11 +865,12 @@ label chap10:
   d "Absolutely I am"
   s @ happy "here is a littol peek"
   s @ shock "FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK"
-  d @ smug "AJWBDNDJKCJFS"
+  show dix smug
+  d "AJWBDNDJKCJFS"
   
   r "Twist Deception 8"
   r "Twist Perception 25"
-  
+  show dix thot
   d "Sarah I literally. I almost made a changeling character for this so I am losing it............ almost could have genuinely turned this into a long lost child situation"
   show sarah happy
   s "ADSFLKASJDFLKASD"
@@ -862,10 +879,11 @@ label chap10:
   s "especially considering"
   s "the campaign i almost put him in Also has a changeling pretending to be human"
   s "everywhere twist goes it's just that spiderman pointing meme"
-  d "But I mean......... changelings can have those two 'permanent' forms...... wow twist form and twist with feathers form..... here is my shifter son"
-  d @ smug "AJWHDKBSKFJS"
+  d @ happy "But I mean......... changelings can have those two 'permanent' forms...... wow twist form and twist with feathers form..... here is my shifter son"
+  show dix smug
+  d "AJWHDKBSKFJS"
   s "I love my dead shifter son"
-  d @ smug "QKWHDJDHS"
+  d "QKWHDJDHS"
   hide dix
   hide sarah
   hide ooc
@@ -899,10 +917,11 @@ label chap10:
   show ooc  
   show sarah shock at rightish
   s "HOLY SHIT MEGAN????"
-  show meg at leftish
+  show meg shades at leftish
   m "I SAID IT EAS GONNA LOOK SCARIER THAN IT IS"
   s "'a lot scarier than it looks' \nwell it LOOKS terrifying"
   m "OTHER WAY AROUND OTHER WAY AROUND"
+  show meg
   m "It looks scary, but it's LESS scary! I promise!!!!"
   hide meg
   hide sarah
@@ -930,8 +949,9 @@ label chap10:
   show sarah sad
   s "fjuck."
   d "I can't believe my death ward is about to be used to protect twist from lysander when he sees teren and no darling boy"
-  s @ happy "AFGKJLKJHFSD"
-  m "WHFJSNFJ"
+  show sarah happy
+  s "AFGKJLKJHFSD"
+  m @ happy "WHFJSNFJ"
   hide dix
   hide meg
   hide sarah
@@ -1008,9 +1028,9 @@ label chap10:
   show sarah trauma
   s "who knows maybe twist is just Like That"
   m "Traumatized? Yeah, he is!"
+  show dix happy
   d "SO true some people just like to flinch"
   m "Some people just love hoarding food for kicks!"
-  show dix happy 
   d "It's called being a prepper uwu. Very normal"
   s "a completely valid response to being in prison"
   d "SO true. Prison did this to him for sure"
@@ -1057,7 +1077,7 @@ label chap10:
   "Twist groans a bit and resists the urge to physically shrink."
   t "Are they...are they gone?"
   br "Who?" 
-  show brand at centerish
+  show brand at center_left
   "comes Brand's voice from somewhere outside your vision. He sounds... almost bored. Definitely not invested."
   "Twist shoots upright, still a little woozy, but no worse than if you'd just woken up from a nap."
   r "Twist Perception 13"
@@ -1075,7 +1095,7 @@ label chap10:
   m "Jeez"
   "Brand, who you can now see is perched on a cabinet at the far end of the room, furrows his brows."
   br "Next...?"
-  show lysander at far_right
+  show lysander fucked at far_right
   "As if on cue, the wall grinds open again, and the woman from before drags in Lysander, dropping him on the floor."
   "He looks... bad. Like the death ward did its job."
   "''April''" "He's all yours again. Night, Nadine."
@@ -1085,11 +1105,12 @@ label chap10:
   br "Nadine, just this once, can you—"
   show nadine at mid_right with move
   "But she's already moving, shoving Brand aside."
+  show brand at mid_left with move
   "With nothing to do, Brand turns on you, grabbing onto the front of your shirt, leaving bloody stains on the fabric."
   br "What did you do {i}this{/i} time, asshole?"
   
   show ooc 
-  show dix at rightish 
+  show dix worry at rightish 
   d "TEARS IN MY EYES please little a leveling up for brand i feel so bad for him!!!!! Can't heal his moirail!!!!!"
   show meg at leftish
   m "Smh all he needed was a 17 on that d20 roll..... his bad for sucking"
@@ -1106,12 +1127,14 @@ label chap10:
   hide ooc
 
   "Twist looks at Lysander in {i}horror{/i}"
-  show twist worry
+  hide teren
+  show twist worry at far_left
   "and immediately shifts back into his sickly victorian orphan form as Brand shakes him."  
   show twist panic
   t "I-I don't...." 
   "He starts tearing up a little."
   t "Is he dead?"
+  show brand at center_left with move
   "As soon as Twist shifts back, Brand lets go of him like a hot coal."
   "His face is ashen as he looks at his friend."
   br "Ah... no. No, he's—he's breathing." 
@@ -1132,7 +1155,7 @@ label chap10:
   d "!!"
   m "Yeah!! I'm really happy with the mechanic!"
   d "I love this. Time to get in more fights in the name of Progress"
-  m "WHFJSBFJSJF"
+  m @ happy "WHFJSBFJSJF"
   m "Ohhhh brand.... it seems I've bitten my tongue... oh no....... guess you gotta roll the d20 again......... oh you didn't get a 17? Whoops I stubbed my toe oh gee.."
   d @ happy "Blorange has Ten very breakable fingers"
   m "D:"
@@ -1172,27 +1195,32 @@ label chap10:
   show ooc  
   show dix worry at rightish
   d "About to stone shape thought the Fucking floor into the med bay to hug this child. When the doctor says don't look never ever look!!!!!!"
-  show sarah
+  show sarah trauma
   s "YES BUT HE'S A DUMB LITTLE BABY"
-  s @ trauma "also sarah was curious!"
+  s "also sarah was curious!"
   show meg phone at leftish
   m "Current mood :pensive:"
   show extra ch10 onlayer overlay
   "  "
   hide extra ch10
-  d @ worry ":pleading::pleading::pleading:"
-  s @ trauma "slapstick with consequences"
+  d ":pleading::pleading::pleading:"
+  s "slapstick with consequences"
+  show dix
   d "WKDHSKFJJS"
+  show meg happy
   m "WHFJJSJG yeah....."
   m "Slap.... slapground..."
   m "Slapground hard.."
+  show sarah shock
   s "{b}{i}megan no{/i}{/b}"
   m "{i}i{/i} think I'm hilarious"
-  s @ thot "how about lysander huh"
+  show sarah thot2
+  s "how about lysander huh"
   m "(Extends my DM control to make Lysander act OOCly) yeah he says he thinks I'm funny too :)"
   s @ thot "lysander blink twice if you're being held hostage"
   m "Lysander, whose blinking is controlled by the DM, blinks naught but once"
-  s @ sad "megan i am strangling you with my weak weak grip"
+  show sarah sad
+  s "megan i am strangling you with my weak weak grip"
   m ":knifecat:"
   hide dix
   hide meg
@@ -1214,9 +1242,8 @@ label chap10:
   show dix happy at rightish
   d "<3<3<3 I said eye for an eye revealing character race!!"
   d "The scent!"
-  show meg at leftish
-  m "Sneef"
-  m "!"
+  show meg happy at leftish
+  m "Sneef!"
   hide dix
   hide meg
   hide sarah
@@ -1289,10 +1316,10 @@ label chap10:
 
   scene bg med bay
   show twist panic at far_left
-  show lysander at far_right
+  show lysander fucked at far_right
   show nadine at mid_right
   show brand at center_left
-  "Nadine pays you absolutely no mind. She has her forceps and looking at the carnage was your bad."
+  "Nadine pays Twist absolutely no mind. She has her forceps and looking at the carnage was your bad."
   "She and Brand work quietly for a while, picking out fragments of bone and grit, setting legs and ribs and arms, then healing the worst of it with magic."
   "Eventually, they finish, and Brand, after lingering a moment just to process, heads over to Twist."
   br "Do you... hey." 
@@ -1320,7 +1347,8 @@ label chap10:
   show meg at leftish
   m "Literally before this night Twist has been lying his ass off with a 100 percent success rate about EVERYTHING"
   s "bold of you to assume twist has ever had a medical appointment to know this practice dix"
-  d @ smug "WKDBJDHFJS"
+  show dix smug
+  d "WKDBJDHFJS"
   s "this entire night has been one failed lie after another for the poor lad"
   m "Yeah he was NOT on his game tonight"
   s "hey dix remember when you suggested new invention as a song for twist and i freaked out a lil"
@@ -1399,18 +1427,22 @@ label chap10:
   d "WJDHDJDS"
   d "Did u know. I almost didn't give lysander death ward."
   d "I only have a couple lvl 4 slots so I was like :grimace: but then I will be like. Out."
-  d @ why "Lysander can take a hit, right? Twist is the one who needs protecting"
+  show dix why
+  d "Lysander can take a hit, right? Twist is the one who needs protecting"
   m "Well he did take a hit!"
   m "Pretty hard!"
+  show dix
   d "He did!!!"
   show sarah
   s "that is a thing that indeed Happened"
+  show meg happy
   m "It was pretty fun, I think!"
   m "Had a laugh"
-  s @ thot "{b}{i}did you now{/i}{/b}"
+  show sarah thot2
+  s "{b}{i}did you now{/i}{/b}"
   m "I did! :)"
   d "Blorange and gavenny are certainly having one!!"
-  s @ thot "see now you can't put all the blame on me for traumatizing twist"
+  s "see now you can't put all the blame on me for traumatizing twist"
   m "God imagine if blorange put the mark on LYSANDER"
   d @ smug "QKEHDJDHKFJS"
   m "Oh wow! He got up onto the stands! Oh... oh wow he's.. he's going down real fast....... and hes.... going to the med bay now.... and...... lying v..very still......"
@@ -1418,14 +1450,18 @@ label chap10:
   m "You just make it look so fun!"
   m "YEAH"
   m "Hilarious actually"
-  d @ shock "YOU LITERALLY WERE TOLD NOT TO LOOK"
-  d @ shock "SO AS NOT TO TRAUMATIZE YOU"
+  show dix shock
+  d "YOU LITERALLY WERE TOLD NOT TO LOOK"
+  d "SO AS NOT TO TRAUMATIZE YOU"
   s @ happy "AKSDFJALKS"
-  s @ thot "ok that. that's actually a good point."
-  d @ happy "Well he's already seen it once might as well watch him bleed the rest of the night to desensitize"
+  show sarah thot
+  s "ok that. that's actually a good point."
+  show dix happy
+  d "Well he's already seen it once might as well watch him bleed the rest of the night to desensitize"
+  show meg worry
   m "JEE,"
   m "Z"
-  d @ happy "Then he'll be more prepared for the arena!!!!"
+  d "Then he'll be more prepared for the arena!!!!"
   hide dix
   hide meg
   hide sarah
@@ -1474,7 +1510,7 @@ label chap10:
   show ooc  
   show dix shock at rightish
   d ":O......... not in prison on purpose.......... sadly takes down half a wall of push pins in my pepe silvia theory box"
-  show meg at leftish
+  show meg happy at leftish
   m ":pensive: tragic"
   hide dix
   hide meg
@@ -1502,7 +1538,7 @@ label chap10:
   d "Brand.......  ..... brand......"
   d @ happy "WAIT no I forgot he mentioned roland in front of him. I thought lysander was gossiping"
   d "But still.......... :grimace: brand....."
-  show meg at leftish
+  show meg sad at leftish
   m "Yeah no brand is also making that face at himself"
   hide dix
   hide meg
@@ -1521,10 +1557,13 @@ label chap10:
   d "YOU {i}KILL{/i}  TWIST??? YOU THREATEN TWIST LIKE FOOTBALL?????? OH! OH! DEATH FOR ROLAND! DEATH FOR ONE THOUSAND YEARS!!!"
   show sarah happy
   s "ALKJSLKJJKA"
-  d @ shades "Wow this is so exciting blorange gets one friendly arena fight and now (checks forecast) yep! All murder!"
+  show dix shades
+  d "Wow this is so exciting blorange gets one friendly arena fight and now (checks forecast) yep! All murder!"
+  show sarah
   s "blorange will finally be able to commit homicide!!"
+  show dix
   d "Finally!!!!!!"
-  show meg at leftish
+  show meg phone at leftish
   m "It's okay (checks my own forecast, called a campaign outline) you've still got a couple fights that can stay friendly coming up!"
   d "Oh good!! I love making friends!!!!"
   hide dix
@@ -1547,29 +1586,35 @@ label chap10:
   m "None of which are things we've seen him have ANY opportunity to do yet"
   show sarah
   s "one of these days we'll see him in his element"
-  s @ sad "none of us will laugh then"
+  show sarah sad
+  s "none of us will laugh then"
   m "Hopefully not!!"
   m "Dice maiden might have other plans for him"
-  s @ sad "dice maiden my detested"
+  s "dice maiden my detested"
   d "Ok actually I am now realizing. The person I should be hitting with the 'worship hera' stick. Is him."
   d "Mr star crossed lover. Mr basically no magical protection."
   d "Also I think dice maiden is hera-aligned and he needs the boost"
   m "Dearly detested we have gathered here today to cry"
-  d @ smug "WJDBKDJFS"
+  show dix smug
+  d "WJDBKDJFS"
+  show meg happy
   m "WHFJSNGJ convert now bitch or suffer the wrath of the dice gods"
-  d @ smug "Blorange has been rolling well! It's all about the loyalty and devotion. Thank u dice mistress"
+  d "Blorange has been rolling well! It's all about the loyalty and devotion. Thank u dice mistress"
   m "SO true"
-  s @ trauma "now every time the dice bot fucks me over i can imagine twist getting personally smote by the gods"
+  show sarah trauma
+  s "now every time the dice bot fucks me over i can imagine twist getting personally smote by the gods"
   m "As he should be"
   s @ shock "HELLO??"
   s "i guess that's just being 14 huh"
   d "Wow I can't believe when blorange finally channels hera for advice she's gonna be the bitch megan perceives this beloved dice bot to be"
   d "Wkdhskjfjds"
   m "WHFJSJJFJSNG"
+  show meg smug
   m "Yeah babe sorry but heras gonna suck now"
+  show dix happy
   d "To YOU"
-  m "This bot is my nemesis"
-  d @ happy "I like mean :)"
+  m @ shades "This bot is my nemesis"
+  d "I like mean :)"
   m "Oh SO true"
   hide dix
   hide meg

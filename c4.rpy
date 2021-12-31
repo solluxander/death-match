@@ -3,7 +3,7 @@ label chap4:
   scene bg common room
 
   show twist worry at far_left
-  show lysander at centerish
+  show lysander happy at centerish
 
   "Twist, the next morning you're woken up, like, ungodly early by a boot kicking your door."
   l "Get up, kid. Let's spar, before the training grounds fill up."
@@ -130,6 +130,7 @@ label chap4:
   s "(tackle him!)"
 
   r "Twist Athletics w Advantage (1d20-1) 14"
+  show lysander
   "The dirty throw with the dagger catches him completely off-guard, smashing against his collarbone and knocking him off-balance."
   "When you rush him, he goes down with nothing more than a surprised 'wh–'"
   "What do you wanna do, you rule-breaking little boy!!"
@@ -150,6 +151,7 @@ label chap4:
   l "The people that got... well, {i}kidnapped off the road{/i} might be."
   l "But if you're in the arena at the same time as them, that means you're a crowd warm-up, and then you've got other problems."
   l "That was a smart move with the dagger, by the way. Throwing it and then pulling out that shadow sword. Don't show it to anyone else, alright?"
+  show lysander happy
   "He smirks."
   l "Best to keep your best moves to yourself as long as you can, you know?"
   "Twist nods. {i}That{/i} he understands."
@@ -194,6 +196,7 @@ label chap4:
   "Twist considers this."
   t "Fair point."
   l "We can use magic on each other, but the walls and floors are reinforced, and there are whole areas blocked off for the guests' safety."
+  show lysander
   l "And don't even try shooting at someone in the stands during a match,"
   "he says, as if from personal experience."
   l "It just gives the other guy more time to line up his shot."
@@ -278,6 +281,7 @@ label chap4:
   t "The last one get killed or somethin?"
   "He shrugs again."
   l "Not sure. They don't exactly tell us these things. I don't even know what this new one looks like."
+  show lysander happy
   l "Guess we'll find out when they announce the first match, huh?" 
   "He bumps your shoulder lightly, smiling."
   "{s}twist and his 30hp goes flying{/s}"
@@ -378,6 +382,7 @@ label chap4:
   hide sarah
   hide ooc 
   
+  show lysander happy
   "Lysander grins."
   l "Oh? New guy thinks he can start calling the shots, huh?"
   "(This is very much a joke but I'm giving you the option to make an insight roll if you think it would make sense for Twist to Maybe Not Get It. DC is whatever you think best.)"
@@ -434,6 +439,7 @@ label chap4:
   show twist smug
   "Twist folds his arms across his chest to look Tough."
   t "Aight. Spill."
+  show lysander
   l "One."
   "He holds up a finger."
   l "Just us. We can take Blorange with when we have a definite route out. But until we have that, I want to avoid a crowd."
@@ -482,6 +488,7 @@ label chap4:
   l "Kid, I've got no clue what her problem is."
   show kion at far_right
   ki "Maybe my problem is suffering through a never-ending rotation of ridiculous idiots like you"
+  show lysander happy
   l "You know I'm better than the idiots before me and it's killing you inside" 
   "he says back. Then he turns back to Twist."
   l "You'd have to ask her yourself."
@@ -532,11 +539,13 @@ label chap4:
   ki "Shut your mouth or I'll rearrange it so badly your little boyfriend downstairs won't know which end goes where."
   l "Ooh, I'd like to see you try."
   "You hear footsteps coming from behind the door, and Lysander laughs nervously. He leans down to you."
+  show lysander
   l "My room. Fast."
   "Lysander shuts the door behind the two of you just as Ki'on's door opens."
   hide kion
   "For a moment, she's silent. Then"
   ki "Coward."
+  show lysander happy
   l "You're always welcome to come finish the job, Princess!"
   "She huffs."
   ki "Just keep it down, Orson."
@@ -557,6 +566,7 @@ label chap4:
   l "You can sit down, by the way."
   t ":blush: Um. Ok." 
   "Twist sits down at the very edge of the bed, leaving a few inches between him and Lysander, and folds his hands very politely in his lap."
+  show lysander
   "Lysander sketches out a quick map, then leans over to show you."
   l "This is basically how the coliseum is laid out. The most obvious way out is the portcullis everyone gets brought in through" 
   "(he points to the basement level, past the scouted bunks)"
@@ -602,6 +612,7 @@ label chap4:
   show twist worry
   "Twist winces at the sight of lysander's shoulder scar. He studies the map, frowning."
   t "How far did y'get last night?"
+  show lysander happy
   l "I got all the way into the arena!"
   "he says proudly."
   l "There's another wall of stone separating the scouted bunks from the room below the arena, but I managed to get a knife to point at a guard until her friend undid the spell for me."
@@ -629,6 +640,7 @@ label chap4:
   l "You gotta do what you gotta do."
   l "Plus, I knew Brand would put it back for me!"
   t "D'ya think I could slip though? I'm a might smaller than you are, I could probably find some way to let you in afterwards"
+  show lysander happy
   "He looks you up and down."
   l "You probably could, actually. But I'd have to hold you up while you did it."
   t "Oh."
@@ -638,6 +650,7 @@ label chap4:
   show twist sad
   "Twist pouts a bit."
   t "I'm due for a growth spurt, prolly. Now that they're feeding me."
+  show lysander
   "He looks at you, with that pampered rich boy kind of shock on his face."
   l "They weren't feeding you?"
   
@@ -769,6 +782,7 @@ label chap4:
   t "Oh yeah."
   "Twist is quiet for a bit, then shrugs."
   t "Worst case - I steal it off 'em. Shouldn't be too hard to find some metal around here."
+  show lysander happy
   l "Metal for...?"
   
   show ooc 
@@ -801,7 +815,9 @@ label chap4:
   show twist
   "Twist blinks. He makes a little gesture like he's picking a lock."
   t "For. For the picks. To make them."  
-  l "Oh. OH."
+  l "Oh."
+  show lysander
+  l "OH."
   "He flushes, embarrassed."
   l "Sorry, I was so caught up in hair pins... They do make it a point not to let us have metal, but I'm sure we can find {i}something.{/i}"
   
@@ -838,9 +854,12 @@ label chap4:
   l "It feels wrong to steal from them. Their situation is already bad enough as it is."
   t "what could we trade? :eyes:"
   t "I got like. A roll. Could get more though."
+  show lysander happy
   "Lysander laughs."
   l "I don't know if food is the best bargaining chip; Shelly makes sure we all have enough."
+  show lysander
   l "I don't really know what they would want. I'm... not really used to asking for help."
+  show lysander happy
   l "But we can figure something out!"
   l "And if things go south, {i}then{/i} you can swipe it."
   show twist worry
@@ -883,6 +902,7 @@ label chap4:
 
   "AH, that's what this is."
   "Twist scrambles to his feet and lets go before lysander can drag him to the door or something"
+  show lysander
   "Lysander looks... very confused by the sudden urgency."
   l "You good, kid?"
   "Twist shrugs with one shoulder."

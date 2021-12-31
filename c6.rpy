@@ -2,6 +2,7 @@ label chap6:
 
   scene bg common room
 
+  show twist worry at far_right
   t "Once they walk back in, Twist starts looking for Blorange :eyes:"
   show blorange at centerish
   b ":eyes: blorange is chilling in the main room (with... a book? Are there books) after her practice fight with ki'on"
@@ -19,7 +20,6 @@ label chap6:
   hide ooc
 
   show lysander at mid_right
-  show twist worry at far_right
 
   t "Loud one needs healing again."
   l "I have a name, Twist."
@@ -118,11 +118,13 @@ label chap6:
   s "(Not LOUD but his door's also open and I'm assuming Lysander's hovering right over blorange's shoulder)"
   m "(Hes maintaining a SENSIBLE distance but. Yeah he's eavesdropping)"
   "From the nearest chair in the common area, Lysander says"
+  show lysander happy
   l "I think the guards would {i}love{/i} me with long hair."
   "He grabs a fistful of his curls and tugs."
   l "Much easier to grab."
   show twist smug
   "Twist flinches a bit at that, and he turns back to the wall. He curls up a bit and tenses his shoulders."
+  show lysander
   "Lysander Silently Feels Regret™"
   "(Twist does not see this and is still No Talk Me Angy)"
   "Blorange hums thoughtfully."
@@ -558,7 +560,7 @@ label chap6:
   
   "Blorange hums."
   b "So, twist. Theres the royal family in the palace. With their servants. And then any other nobility gets their own smaller palace for {i}their{/i} wives and servants."
-  b "So I lived with lady winshire in her home. {p}And living there made me nobility, after living on the streets."
+  b "So I lived with lady winshire in her home. {p}And living there made me nobility, even after living on the streets."
   "Twist picks at a worn spot in his pants."
   t "Makes sense, I guess." 
   "He looks up at Blorange and tilts his head."
@@ -673,6 +675,7 @@ label chap6:
   "Twist's eyes practically {i}sparkle{/i}. Real anime eyes hours over here. He takes a bite."
   "He makes a startled face as the texture gets to him, which then morphs into {i}holy shit what is this miracle fruit{/i}"
   t "Mmf!"
+  show lysander happy
   "Shelly laughs but JUST A BIT OKAY."
   sh "Good, huh?"
   t "{i}Mm-hmmf!!{/i}"
@@ -704,6 +707,7 @@ label chap6:
   "On his way out, Lysander asks"
   l "Can I have—"
   sh "No."
+  show lysander
   l "Wow."
   
   show ooc  

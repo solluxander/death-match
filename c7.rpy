@@ -237,7 +237,7 @@ label chap7:
   "The other hits him square in the chest, knocking him back down to the ground."
   "His vision is swimming, but Twist can just barely see the woman still making her way towards him."
   "The third bolt is crackling in her hands, ready to loose, but then... "
-  show ekene at mid_right
+  show ekene at mid_left
   "The young man darts out in front of her, blocking Twist's view of her."
   e "We're not supposed to be killing each other here. Save it for the arena." 
   o "I'm not going to {i}kill{/i} him,"

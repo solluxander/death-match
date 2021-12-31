@@ -851,7 +851,9 @@ label chap5:
   "Brand corrects."
   l "Not my fault Gen's dumb bastard face is so punchable," 
   "he shoots back."
-  l "Anyway, Twist, it's not your fault. I made a choice or two and now my ribs are paying for it. Just how these things go. Besiiiiiiides,"
+  l "Anyway, Twist, it's not your fault. I made a choice or two and now my ribs are paying for it. Just how these things go."
+  show lysander happy
+  l "Besiiiiiiides,"
   "he sings, smiling back at Brand."
   l "Now Brand gets to practice magic again!"
   "Now it's Brand's turn to take a swat at him."
@@ -863,6 +865,7 @@ label chap5:
   t "Does- does magic not work all the time?"
   "To Lysander, he adds,"
   t "You're leaking, mate."
+  show lysander
   l "Ah, fuck."
   "Lysander reaches up to swipe the blood off, but Brand smacks his hand away, grabbing a rag to dab gently at it instead."
   br "Don't be gross. {w}And yes, magic generally works. But you have to {i}know{/i} it first."
@@ -906,6 +909,7 @@ label chap5:
   "Twist plays with his shirt hem awkwardly and rubs one of the spots where Blorange mended."
   t "That's...rough. You do- you're alright doin it normal-like though...?"
   br "If I just wanted to do it normal, I wouldn't have left home. It's just... difficult. Like, look."
+  show lysander happy
   "He twists Lysander around so that he's facing you and claps a hand over his mouth."
   "Brand murmurs the words of the spell, and his hand glows just a little bit."
   "But when he pulls it away, Lysander's lip is still split and bloody. Brand shrugs." 
@@ -929,7 +933,7 @@ label chap5:
   t "Seems like a tough learnin curve."
   show twist sad
   "He looks like he's working up the nerve to say something else and he turns to Nadine."
-  n "...you're the one who fixed me up, aren't you?"
+  t "...you're the one who fixed me up, aren't you?"
   n "I am."
   n "Those were pretty bad wounds you had. Brand had to pick a lot out of you before I could heal you. Seemed a lot to take down one kid."
   "Her eyebrow raises in an implicit question, but she doesn't actually ask."
@@ -954,12 +958,15 @@ label chap5:
   d "Every adult has adoption papers in each hand, pointing them at each other like guns in a standoff, each just Waiting for twist to open up to someone so the applying can commence"
   s "he better watch out or his ass is gonna get adopted into a dysfunctional family unit"
   hide dix
+  hide meg
   hide sarah
   hide ooc
 
   t "I didn't...say anything, did I? I mean, I don't remember much but-"
   "He gives a jerky shrug and looks away."  
-  n "I wouldn't expect you to remember. You were mumbling when you came in, but I put you to sleep before we started surgery. It isn't exactly best practice to poke around someone's guts while they're awake."
+  n "I wouldn't expect you to remember. You were mumbling when you came in, but I put you to sleep before we started surgery."
+  n "It isn't exactly best practice to poke around someone's guts while they're awake."
+  show lysander
   l "What were you worried about saying?" 
   "Lysander adds, as Megan casually docks him 1 int per second."
   show twist panic
@@ -1038,16 +1045,13 @@ label chap5:
   show sarah at rightish
   s "drag my boy megan"
   m "I'm TRYING but your +10 makes it so HARD"
-  hide meg
-  hide sarah
-  hide ooc
+
   
   r "Brand Insight (1d20+3) 10"
   
-  show ooc  
-  show sarah shock at rightish
+  show sarah shock
   s "me: makes a rogue with really high deception proficiency {p}my rogue: consistently rolls high deception {p}Me: (shocked pikachu)"
-  show meg sad at leftish
+  show meg sad
   m "Honestly? I too make that face"
   m "Every time"
   hide meg
@@ -1105,21 +1109,25 @@ label chap5:
   "Lysander exclaims, confused."
   "Twist flinches."
   t "F-for getting you hurt."
+  show lysander happy
   "Lysander gives you a mock-betrayed look."
   l "Twist, are you saying you attacked me?"
   "he asks, with the fakest shock you've ever heard."
   l "You punched me in the face with your own two hands?"
   show twist sad
   "Twist genuinely doesn't know how to respond. He looks up at Lysander with confusion poking through the residual panic-fear."
+  show lysander
   "Lysander sighs."
   l "It's sarcasm, Twist. I already told you, I got myself hurt."
   l "You didn't force me to fight Gen, and you certainly aren't responsible for any of the punches he threw."
   l "I can make my own choices, and I chose to bash that asshole's face in."
+  show lysander happy
   "He seems very satisfied by that choice, too."
   l "So you don't really have anything to be sorry for."
   "Twist's shoulders relax the slightest amount. {s}sounds fake but ok lysander{/s}"
   t "Hes not coming here, is he??"
   "He starts looking around as the thought occurs to him."
+  show lysander
   l "Not if he knows what's good for him."
   n "The guards have their own healers," 
   "Nadine adds, a bit more helpfully."
@@ -1218,6 +1226,7 @@ label chap5:
   "In the absence of any more questions, Brand finishes fixing Lysander up the rest of the way."
   "He tries the healing spell on his lip again, but fails. Instead, he reapplies the salve."
   br "I'm sure Ki'on and I would both appreciate if you weren't so talkative this evening. It'll make this heal faster."
+  show lysander happy
   l "You and Ki'on complain about me?"
   br "We might if she ever got sent down here."
   "He kicks Lysander lightly."

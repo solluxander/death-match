@@ -38,6 +38,7 @@ label chap3:
   show sarah thot
   s "{i}oh his strength is -1{/i}"
   m @ smug "Hah....... baby"
+  show meg happy
   s "i made,,,,a perfect character for this environment"
   show sarah
   s "megan: sarah i'm making an arena-themed dnd campaign {p}me, pulling a consumptive victorian orphan from the nearest alley:"
@@ -303,6 +304,7 @@ label chap3:
   "He shoots you a dirty(hurt?sad?) look."
   l "Just enough to help me fight. Quirin had to drill it all into my head, though... I'm not very good at it."
   t "only have to be good once, doncha?"
+  show lysander happy
   "At that, he laughs, and whatever you saw on his face evaporates."
   l "I guess so!"
   d "(Ok. Is there anyone else in the common area currently. Like which rooms are occupied)"
@@ -374,6 +376,7 @@ label chap3:
   "When she sees Lysander, she looks him up and down and gives him a distinctly unimpressed look."
   ki "Still here, huh? What a shock."
   "To which Lysander replies,"
+  show lysander
   l "Get bent."
   "She steps closer to him and you see him maybe start to sweat a little."
   
